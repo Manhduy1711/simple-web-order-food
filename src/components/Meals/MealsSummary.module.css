@@ -1,0 +1,20 @@
+.summary-section {
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 16px;
+  position: relative;
+  width: 50%;
+  bottom: 100px;
+  text-align: center;
+  padding: 6px 10px 20px;
+  left: 25%;
+}
+
+.summary-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.summary-content {
+  margin-top: 10px;
+}

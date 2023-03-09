@@ -1,0 +1,18 @@
+.meal_item {
+  padding: 12px 0 12px 0;
+  border-bottom: 1px solid #aaa;
+}
+
+.meal_item-desc {
+  font-style: italic;
+  color: #333;
+  margin: 4px 0;
+  font-weight: 500;
+}
+
+.meal_item-price {
+  color: orangered;
+  font-size: larger;
+  font-weight: 700;
+  margin: 4px 0;
+}

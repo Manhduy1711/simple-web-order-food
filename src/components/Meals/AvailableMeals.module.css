@@ -1,0 +1,7 @@
+.list-meals {
+  list-style: none;
+}
+
+.list-meals li:last-child {
+  border: none;
+}

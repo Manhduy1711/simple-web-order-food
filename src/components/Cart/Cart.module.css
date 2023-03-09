@@ -1,0 +1,66 @@
+.cart-items {
+  list-style: none;
+  font-family: inherit;
+  font-size: large;
+  font-weight: 400;
+  max-height: 20rem;
+  overflow-y: auto;
+}
+
+.cart-items::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+.cart-items::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.cart-items::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+
+.cart-items::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+
+.cart-items::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-size: larger;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+.actions {
+  text-align: right;
+  margin-top: 12px;
+}
+
+.actions button {
+  padding: 8px 24px;
+  border-radius: 20px;
+}
+
+.actions button:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-close {
+  background-color: white;
+  border: 1px solid #aaa;
+  color: orangered;
+}
+
+.btn-order {
+  background-color: orangered;
+  border: 1px solid orangered;
+  color: white;
+  margin-left: 20px;
+}
